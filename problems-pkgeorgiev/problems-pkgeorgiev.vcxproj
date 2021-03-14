@@ -148,6 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="problems-pkgeorgiev.cpp" />
+    <ClCompile Include="students.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="students.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
