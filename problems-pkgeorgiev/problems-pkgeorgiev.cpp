@@ -1,10 +1,13 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "student.h"
 
 using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	STUDENT student = { 1 , "Georgi", "Georgiev", 17, 6 };
+
+	cout << student.getFullName();
 }
