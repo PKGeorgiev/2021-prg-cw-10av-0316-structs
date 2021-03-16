@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\georg\source\repos\2021-prg-cw-10av-0316-struct\problems-gamihov18\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,11 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\problems-pkgeorgiev\Student.cpp" />
+    <ClCompile Include="..\problems-pkgeorgiev\student.cpp" />
     <ClCompile Include="problems-gamihov18.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\problems-pkgeorgiev\Student.h" />
+    <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

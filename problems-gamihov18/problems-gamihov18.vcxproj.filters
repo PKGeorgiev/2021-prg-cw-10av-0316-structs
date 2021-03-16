@@ -18,12 +18,12 @@
     <ClCompile Include="problems-gamihov18.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\problems-pkgeorgiev\Student.cpp">
+    <ClCompile Include="..\problems-pkgeorgiev\student.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\problems-pkgeorgiev\Student.h">
+    <ClInclude Include="student.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

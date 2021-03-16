@@ -2,7 +2,7 @@
 #include <string>
 struct STUDENT
 {
-	size_t id;
+	int id;
 	std::string firstName;
 	std::string lastName;
 	int age;
