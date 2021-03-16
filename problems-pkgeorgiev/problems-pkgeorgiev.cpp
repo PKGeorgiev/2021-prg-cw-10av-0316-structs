@@ -1,10 +1,15 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "student.h"
 
 using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	// First & surname => your real names
+	// Grade => your real number in class
+	STUDENT student = { 1, "Petar", "Georgiev", 17, 12 };
+
+	cout << student.getFullName();
 }
