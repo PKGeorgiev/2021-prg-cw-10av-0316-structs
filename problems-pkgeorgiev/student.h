@@ -1,5 +1,5 @@
 #pragma once
-
+#include <string>
 
 
 struct STUDENT
@@ -10,5 +10,8 @@ struct STUDENT
 	int age;
 	int grade;
 
-	std::string getFullName();
+	std::string getFullName()
+	{
+		return firstName + " " + surname;
+	}
 }
